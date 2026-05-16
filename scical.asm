@@ -1,11 +1,12 @@
 ; ============================================================
+;  GROUP OF CHOA
 ;  SCIENTIFIC CALCULATOR - TASM (Turbo Assembler) 16-bit DOS
 ;  32-bit arithmetic using DX:AX / register pairs
 ;
-;  Supports: + - * / ^ (power) % (percent of) ! (factorial)
+;  Supports: + - * / ^ (Exponent) % (Percent of) ! (Factorial)
 ;  Number range: 0 to ~2,147,483,647 (signed 32-bit)
 ;
-;  Assemble : TASM  SCICALC.ASM
+;  Assemble : TASM SCICALC.ASM
 ;  Link     : TLINK SCICALC.OBJ
 ;  Run      : SCICALC.EXE
 ; ============================================================
@@ -19,7 +20,7 @@ banner   DB 13,10
          DB "  ============================================",13,10
          DB "       SCIENTIFIC CALCULATOR  v1.0           ",13,10
          DB "  ============================================",13,10
-         DB "  Ops : + - * / ^(power) %(pct of) !(fact)  ",13,10
+         DB "  Ops : + - * / ^(Exponent) %(Percent of) !(Factorial)  ",13,10
          DB "  Factorial only needs first number.         ",13,10
          DB "  Type EXIT to quit.                         ",13,10
          DB "  ============================================",13,10,'$'
