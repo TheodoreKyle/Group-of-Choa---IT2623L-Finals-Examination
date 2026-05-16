@@ -1,5 +1,5 @@
 ; ============================================================
-;  GROUP OF CHOA
+;  GROUP OF CHOA PRESENTS:
 ;  SCIENTIFIC CALCULATOR - TASM (Turbo Assembler) 16-bit DOS
 ;  32-bit arithmetic using DX:AX / register pairs
 ;
